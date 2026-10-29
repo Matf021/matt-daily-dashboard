@@ -1,0 +1,4 @@
+week|2|2026-10-29T16:13:42|v1 Test weekly
+month|3|2026-10-29T16:14:03|v1 test monthly
+both|4|2026-10-29T16:14:16|v1 Test both
+week|2|2026-10-29T16:15:54|v1 Test weekly edit
