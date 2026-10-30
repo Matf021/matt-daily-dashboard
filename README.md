@@ -337,6 +337,8 @@ Documents\Daily Notes\Daily Notes.md
 
 Each day becomes its own Markdown section.
 
+If the archive file does not already exist, it is created automatically the first time notes are archived.
+
 Example:
 
 ```markdown
@@ -359,7 +361,31 @@ Test achievement system
 - [Rainmeter](https://www.rainmeter.net/)
 - PowerShell
 
-### Setup
+### Recommended Installation
+
+1. Go to the repository's **Releases** page.
+
+2. Download:
+
+```text
+Matt-Daily-Dashboard-v1.0.0.rmskin
+```
+
+3. Double-click the downloaded `.rmskin` file.
+
+4. Install it using the Rainmeter Skin Installer.
+
+5. Matt Daily Dashboard will be added to Rainmeter and can be loaded from:
+
+```text
+MattDaily\Daily Notes\DailyNotes.ini
+```
+
+The installer includes clean runtime data files, so no personal notes, tasks, history, or achievement data from the developer are included.
+
+### Manual Installation
+
+For development or manual setup:
 
 1. Clone or download this repository.
 
@@ -440,6 +466,7 @@ Version 1.0 includes:
 - achievement popups
 - persistent local storage
 - CRT-inspired interface
+- `.rmskin` installer
 
 The primary application flows were smoke-tested before the v1.0 release.
 
@@ -467,4 +494,4 @@ Version 1.0 is currently considered feature-complete.
 
 Built as a personal productivity tool and software engineering project using **Rainmeter, Lua, and PowerShell**.
 
-© 2026 Matias Franco. All rights reserved
+© 2026 Matias Franco. All rights reserved.
