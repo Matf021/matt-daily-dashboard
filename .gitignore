@@ -1,0 +1,43 @@
+# ==================================================
+# MATT DAILY NOTES
+# Runtime / personal data
+# ==================================================
+
+@Resources/Today.txt
+@Resources/Tasks.txt
+@Resources/TaskHistory.txt
+@Resources/CurrentDate.txt
+@Resources/AchievementHistory.txt
+@Resources/BadgeHistory.txt
+
+# Optional backups / temporary data
+@Resources/*.bak
+@Resources/*.tmp
+
+# ==================================================
+# WINDOWS
+# ==================================================
+
+Thumbs.db
+Desktop.ini
+
+# ==================================================
+# EDITOR / IDE
+# ==================================================
+
+.vscode/
+.idea/
+
+# ==================================================
+# POWERSHELL / TEMP FILES
+# ==================================================
+
+*.log
+*.tmp
+*.temp
+
+# ==================================================
+# OS / MISC
+# ==================================================
+
+.DS_Store
