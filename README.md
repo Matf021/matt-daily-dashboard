@@ -160,9 +160,9 @@ Some secret badges remain hidden until they are discovered.
 
 ## Demo
 
-<!-- Replace this file with your own GIF when ready -->
-
-![Matt Daily Dashboard Demo](Assets/demo.gif)
+<p align="left">
+  <img src="Assets/demo.gif" width="300" alt="Matt Daily Dashboard demo">
+</p>
 
 ---
 
