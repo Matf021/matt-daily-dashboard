@@ -4,7 +4,9 @@ A retro CRT / Pip-Boy-inspired productivity dashboard built with **Rainmeter, Lu
 
 Matt Daily Dashboard combines quick note capture, task management, repeat-goal tracking, productivity statistics, achievements, and persistent local storage inside a compact desktop widget.
 
-![Matt Daily Notes Dashboard](Assets/dashboard.png)
+<p align="left">
+  <img src="Assets/dashboard.png" width="250" alt="Matt Daily Notes dashboard">
+</p>
 
 > **Version 1.0 — Stable**
 
