@@ -466,3 +466,5 @@ Version 1.0 is currently considered feature-complete.
 **Matias Franco**
 
 Built as a personal productivity tool and software engineering project using **Rainmeter, Lua, and PowerShell**.
+
+© 2026 Matias Franco. All rights reserved
