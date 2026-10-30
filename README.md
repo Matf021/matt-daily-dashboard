@@ -218,7 +218,7 @@ PowerShell is used for persistent file operations, including:
 ## Project Structure
 
 ```text
-matt-daily-notes/
+matt-daily-dashboard/
 │
 ├── DailyNotes.ini
 │
@@ -238,6 +238,13 @@ matt-daily-notes/
 │   ├── Achievement.lua
 │   ├── ViewController.lua
 │   ├── EntryCount.lua
+│   │
+│   ├── Today.example.txt
+│   ├── Tasks.example.txt
+│   ├── TaskHistory.example.txt
+│   ├── CurrentDate.example.txt
+│   ├── AchievementHistory.example.txt
+│   ├── BadgeHistory.example.txt
 │   │
 │   └── Sprites/
 │
@@ -314,7 +321,9 @@ This keeps the project:
 - easy to inspect
 - easy to back up
 
-Personal note and history files are intentionally excluded from the public repository.
+Personal runtime data is intentionally excluded from version control. Files containing notes, tasks, completion history, achievement history, badge history, and local date state remain on the user's machine and are ignored by Git.
+
+Safe `.example.txt` files are included in the repository to document the expected data formats without exposing personal content.
 
 ---
 
@@ -366,11 +375,26 @@ For example:
 Documents\Rainmeter\Skins\MattDailyDashboard\
 ```
 
-3. Open Rainmeter.
+3. Create the local runtime data files inside `@Resources/`.
 
-4. Refresh the skin list.
+The repository includes `.example.txt` templates. Copy or rename them to:
 
-5. Load:
+```text
+Today.txt
+Tasks.txt
+TaskHistory.txt
+CurrentDate.txt
+AchievementHistory.txt
+BadgeHistory.txt
+```
+
+These runtime files are ignored by Git so personal notes, task history, and achievement data remain local.
+
+4. Open Rainmeter.
+
+5. Refresh the skin list.
+
+6. Load:
 
 ```text
 MattDailyDashboard\DailyNotes.ini
