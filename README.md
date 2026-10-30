@@ -1,8 +1,8 @@
-# Matt Daily Notes
+# Matt Daily Dashboard
 
 A retro CRT / Pip-Boy-inspired productivity dashboard built with **Rainmeter, Lua, and PowerShell**.
 
-Matt Daily Notes combines quick note capture, task management, repeat-goal tracking, productivity statistics, achievements, and persistent local storage inside a compact desktop widget.
+Matt Daily Dashboard combines quick note capture, task management, repeat-goal tracking, productivity statistics, achievements, and persistent local storage inside a compact desktop widget.
 
 ![Matt Daily Notes Dashboard](assets/dashboard.png)
 
@@ -12,7 +12,7 @@ Matt Daily Notes combines quick note capture, task management, repeat-goal track
 
 ## Overview
 
-Matt Daily Notes started as a simple desktop note widget and gradually evolved into a small state-driven productivity application.
+Matt Daily Dashboard started as a simple desktop note widget and gradually evolved into a small state-driven productivity application.
 
 The goal was to create something lightweight and useful for everyday organization while making the experience feel more like an interactive terminal system than a traditional to-do list.
 
@@ -111,7 +111,7 @@ It includes:
 
 ### Achievement System
 
-Matt Daily Notes includes a progression system tied to completed objectives.
+Matt Daily Dashboard includes a progression system tied to completed objectives.
 
 Progression tracks include:
 
@@ -160,7 +160,7 @@ Some secret badges remain hidden until they are discovered.
 
 <!-- Replace this file with your own GIF when ready -->
 
-![Matt Daily Notes Demo](assets/demo.gif)
+![Matt Daily Dashboard Demo](assets/demo.gif)
 
 ---
 
@@ -300,7 +300,7 @@ This event-based structure allows the application to calculate weekly and monthl
 
 ## Local-First Design
 
-Matt Daily Notes does not require a database, account, API, or cloud service.
+Matt Daily Dashboard does not require a database, account, API, or cloud service.
 
 Application data is stored locally using plain-text files.
 
@@ -361,7 +361,7 @@ Documents\Rainmeter\Skins\
 For example:
 
 ```text
-Documents\Rainmeter\Skins\MattDailyNotes\
+Documents\Rainmeter\Skins\MattDailyDashboard\
 ```
 
 3. Open Rainmeter.
@@ -371,7 +371,7 @@ Documents\Rainmeter\Skins\MattDailyNotes\
 5. Load:
 
 ```text
-MattDailyNotes\DailyNotes.ini
+MattDailyDashboard\DailyNotes.ini
 ```
 
 ---
