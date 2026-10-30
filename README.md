@@ -220,10 +220,10 @@ PowerShell is used for persistent file operations, including:
 ```text
 matt-daily-dashboard/
 │
-├── DailyNotes.ini
+├── Daily Notes/
+│   └── DailyNotes.ini
 │
 ├── README.md
-│
 ├── .gitignore
 │
 ├── Assets/
@@ -323,7 +323,7 @@ This keeps the project:
 
 Personal runtime data is intentionally excluded from version control. Files containing notes, tasks, completion history, achievement history, badge history, and local date state remain on the user's machine and are ignored by Git.
 
-Safe `.example.txt` files are included in the repository to document the expected data formats without exposing personal content.
+Sample `.example.txt` files are included in the repository to document the expected data formats without exposing personal content.
 
 ---
 
@@ -372,12 +372,12 @@ Documents\Rainmeter\Skins\
 For example:
 
 ```text
-Documents\Rainmeter\Skins\MattDailyDashboard\
+Documents\Rainmeter\Skins\matt-daily-dashboard\
 ```
 
 3. Create the local runtime data files inside `@Resources/`.
 
-The repository includes `.example.txt` templates. Copy or rename them to:
+The repository includes `.example.txt` templates. Create copies of the templates using the following filenames:
 
 ```text
 Today.txt
@@ -397,7 +397,7 @@ These runtime files are ignored by Git so personal notes, task history, and achi
 6. Load:
 
 ```text
-MattDailyDashboard\DailyNotes.ini
+matt-daily-dashboard\Daily Notes\DailyNotes.ini
 ```
 
 ---
